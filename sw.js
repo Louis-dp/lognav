@@ -1,5 +1,5 @@
 // Service worker : fonctionnement hors ligne (cache) + mise à jour en arrière-plan
-const CACHE = 'logifr-v2.4.0';
+const CACHE = 'logifr-v2.6.0';
 const FILES = ['./', './index.html', './manifest.json', './icon-180.png', './icon-192.png', './icon-512.png',
   './points.json', './points_info.json', './classeur.json', './feuilles.json', './trajets.json', './types.json', './wmm.json'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => Promise.all(FILES.map(f => c.add(f).catch(() => {})))).then(() => self.skipWaiting())); });

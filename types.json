@@ -7,7 +7,7 @@
   "pleinL": 2530.0,
   "qmsIFR": 240.0,
   "qmsVFR": 160.0,
-  "forfait": 70.0,
+  "forfait": 80.0,
   "vp": 120.0
  },
  {
@@ -20,16 +20,5 @@
   "qmsVFR": 10.0,
   "forfait": 5.0,
   "vp": 110.0
- },
- {
-  "type": "FENNEC (L)",
-  "unite": "L",
-  "conso": 205.0,
-  "consoPMC": 220.0,
-  "pleinL": 730.0,
-  "qmsIFR": 100.0,
-  "qmsVFR": 80.0,
-  "forfait": 40.0,
-  "vp": 120.0
  }
 ]

@@ -4,8 +4,8 @@ Reprise complète du fichier Excel « Log de navigation IFR » :
 - **Log 1 / Log 2 / Log 3** : feuilles Étape 1, 2 et 3 (log, dégagement, carburant, journal), log vierge. Chaque étape part de l'arrivée de la précédente et reprend le pétrole restant (+ complément d'avitaillement).
 - **Cougar** : Perfos étape 1 / 2 / 3, Centrage.
 - **Fennec** : Perfo étape 1 / 2 / 3 (abaques).
-- **Cartons** : Carton Perfo IFR 1 / 2 / 3, VFR 1 / 2 / 3.
-- **Données** : trajets, base de points, machines et masses, dossiers de vol, réglages.
+- **Cartons** : Carton Perfo IFR 1 / 2 / 3.
+- **Données** : trajets (enregistrés depuis chaque log, rechargeables dans le Log 1, 2 ou 3), base de points, machines et masses, réglages. Bouton « Nouveau vol » dans chaque log pour tout vider.
 
 Les perfos, centrages et cartons sont calculés par un moteur qui exécute les formules d'origine du classeur
 (fichier `classeur.json`, généré depuis l'Excel). Les feuilles lisent automatiquement le log.
@@ -24,5 +24,5 @@ Les perfos, centrages et cartons sont calculés par un moteur qui exécute les f
 Après une modification, changer `CACHE = 'logifr-v…'` dans `sw.js` pour forcer la mise à jour sur les tablettes.
 
 ## Données saisies
-Log en cours, perfos, trajets perso, points ajoutés, machines et dossiers restent dans la tablette ;
+Log en cours, perfos, trajets perso, points ajoutés et machines restent dans la tablette ;
 utiliser Exporter / Importer (onglet Données) pour les partager.
